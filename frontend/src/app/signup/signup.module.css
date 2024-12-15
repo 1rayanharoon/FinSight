@@ -1,0 +1,185 @@
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #181a20; /* Dark background */
+    color: #eaecef;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Card */
+  .card {
+    background-color: #1e2329; /* Dark card background */
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  .logo {
+    color: #f0b90b;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left; /* Align logo to the left */
+    width: 100%; /* Ensure it spans the full width of the card */
+  }
+  /* Heading */
+  .heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #eaecef; /* Light text */
+  }
+  
+  .subheading {
+    font-size: 0.9rem;
+    color: #9fa6b2; /* Muted text */
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Row for two inputs side by side */
+  .row {
+    width: 100%;
+    display: flex;
+    gap: 40px; /* Space between input fields */
+    margin-bottom: 20px;
+  }
+  
+  .inputSection {
+    flex: 1;
+    
+  }
+  
+  .label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #eaecef; /* Light text */
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #33373d;
+    border-radius: 5px;
+    background-color: #121417; /* Dark input background */
+    color: #eaecef;
+  }
+  
+  .input:focus {
+    border-color: #f0b90b; /* Yellow border on focus */
+    outline: none;
+  }
+  
+  /* Checkbox Section */
+  .checkboxSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox {
+    cursor: pointer;
+  }
+  
+  .termsText {
+    font-size: 0.9rem;
+    color: #eaecef;
+  }
+  
+  .link {
+    color: #f0b90b; /* Yellow for links */
+    cursor: pointer;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    color: #e0a809; /* Darker yellow on hover */
+  }
+  
+  /* Submit Button */
+  .submitButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0b90b; /* Yellow button */
+    color: #181a20; /* Dark text */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  /* Add margin below password input sections */
+.passwordSection {
+    margin-bottom: 20px; /* Adjust spacing as needed */
+  }
+  
+  .submitButton:hover {
+    background-color: #e0a809; /* Darker yellow on hover */
+  }
+  
+  /* Login Text */
+  .loginText {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #eaecef;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #9fa6b2;
+  }
+  
+  .dividerText {
+    padding: 0 10px;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #33373d;
+  }
+  
+  /* Social Buttons */
+  .socialButtons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .socialButton {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #33373d;
+    border-radius: 5px;
+    background-color: #121417;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .socialButton:hover {
+    background-color: #1e2329;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+
