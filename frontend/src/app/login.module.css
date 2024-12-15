@@ -1,0 +1,167 @@
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack card and footer vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #181a20;
+    color: #eaecef;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Card */
+  .card {
+    background-color: #1e2329;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    text-align: center; /* Center align content inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Binance Logo */
+  .logo {
+    color: #f0b90b;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left; /* Align logo to the left */
+    width: 100%; /* Ensure it spans the full width of the card */
+  }
+  
+  /* Heading */
+  .heading {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left; /* Align welcome text to the left */
+    width: 100%; /* Ensure it spans the full width of the card */
+  }
+  
+  /* Input Section */
+  .label {
+    text-align: left; /* Label aligned to the left */
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .input {
+    width: 100%; /* Input size consistent with the card width */
+    padding: 10px;
+    border: 1px solid #33373d;
+    border-radius: 5px;
+    background-color: #121417;
+    color: #eaecef;
+    margin-bottom: 20px;
+  }
+  
+  /* Checkbox Section */
+  .checkboxSection {
+    display: flex;
+    align-items: flex-start; /* Align checkbox and text to the top */
+    gap: 10px;
+    margin-bottom: 20px;
+    text-align: left; /* Align terms text to the left */
+    width: 100%;
+  }
+  
+  .checkbox {
+    margin-top: 3px;
+  }
+  
+  .termsText {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    text-align: left; /* Align terms text */
+  }
+  
+  /* Next Button */
+  .nextButton {
+    width: 100%; /* Full width button */
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0b90b;
+    color: #181a20;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .nextButton:hover {
+    background-color: #e0a809;
+  }
+  
+  /* Divider */
+  .divider {
+    margin: 20px 0;
+    position: relative;
+    font-size: 0.8rem;
+    color: #6b7280;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #33373d;
+    position: absolute;
+    top: 50%;
+    width: 40%;
+  }
+  
+  .divider::before {
+    left: 0;
+  }
+  
+  .divider::after {
+    right: 0;
+  }
+  
+  /* Social Buttons */
+  .socialButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%; /* Full width button */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #33373d;
+    border-radius: 5px;
+    background-color: #121417;
+    color: #eaecef;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .socialButton:hover {
+    background-color: #1e2329;
+  }
+  
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+  
+  /* Footer Outside the Card */
+  .footerOutside {
+    margin-top: 20px; /* Add space between the card and the footer */
+    font-size: 0.9rem;
+    text-align: center; /* Center align footer links */
+  }
+  
+  .footerLink {
+    color: #f0b90b;
+    text-decoration: none;
+  }
+  
+  .footerLink:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
